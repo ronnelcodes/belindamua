@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+@import url('https://www.cssfontstack.com/Muli');
+@import "reset";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  /*background: green;*/
+}
+
+#content-area img {
+  margin: auto;
+  width: 50%;
+  display: block;
+}
+
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+#header {
+  padding: 40px 0;
+}
+
+#header .menu .current {
+  color: #FF1493;
+  font-weight: 700;
+}
+
+#header .logo {
+  font-family: "Dancing Script";
+  font-weight: 100;
+  font-size: 36px;
+  display: inline-block;
+}
+
+#header h5 {
+  font-family: "Muli";
+  text-transform: uppercase;
+}
+
+#header .menu {
+  display: inline-block;
+  float: right;
+}
+
+#header .menu a {
+  display: inline-block;
+  list-style-type: none;
+  font-size: 16px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 15px;
+  color: #000;
+}
+
+#header .menu a:hover {
+  background: url('http://www.powerpointhintergrund.com/uploads/2017/05/silver-glitter-background-frepk-16.jpeg');
+  font-weight: 700;
+}
+
+#content-area img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*#content-area .info h5 {
+  display: inline-block;
+  background: red;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 5px 8px;
+  font-weight: 700;
+  color: #fff;
+}*/
+
+..clearfix {
+  overflow: auto;
+}
+
+footer {
+  position: fixed;
+  height: 100px;
+  bottom: 0;
+  width: 100%;
+}
+
+footer .copyright {
+  font-size: 13px;
+}
+
+footer h5 {
+  font-family: "Dancing Script";
+}
+
+footer h6 {
+  font-family: "Muli";
+}
+
+/* ==========================
+    MEDIA QUERIES
+  ========================== */
+  @media screen and (orientation: portrait) {
+    img.ri { max-width: 90%; }
+  }
+
+  @media screen and (orientation: landscape) {
+    img.ri { max-height: 90%; }
+  }

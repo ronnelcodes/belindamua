@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Belinda Rosales - Makeup Artist</title>
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link rel="stylesheet" href="css\contact.css">
+  </head>
+  <body>
+    <div class="container">
+    <section id="header">
+      <div class="logo">
+        Belinda Rolases
+        <h5>Makeup Artist</h5>
+      </div>
+      <div class="menu">
+        <nav>
+          <a href="index.html">
+            Bridal Makeup</a>
+          <a href="portfolio.html">
+            Makeup Portfolio</a>
+          <a href="before-after.html">
+            Before and After</a>
+          <a href="testimonials.html">
+            Testimonials</a>
+          <a href="about.html">
+            About</a>
+          <a class="current" href="contact.html">
+            Contact</a>
+        </nav>
+      </div>
+    </section>
+
+    <section id="form">
+      <!-- REGISTRATION -->
+      <form>
+              <h5 class="mb-2">Basic Info</h5>
+              <div class="form-group">
+                <label class="form-control-label" for="name" required>Bride's Name</label>
+                <input type="text" class="form-control" id="name">
+              </div>
+              <div class="form-group">
+                <label class="form-control-label" for="phone" required>Bride's Phone</label>
+                <input type="phone" class="form-control" id="phone">
+              </div>
+              <div class="form-group">
+                <label class="form-control-label" for="mail" required>Bride's Email</label>
+                <input type="email" class="form-control" id="mail">
+                <small id="emailHelp" class="form-text text-muted"><em>We'll never share your email with anyone else.</em></small>
+              </div>
+              <div class="form-group">
+                <label class="form-control-label" for="date" required>Wedding Date</label>
+                <input type="date" class="form-control" id="date">
+              </div>
+              <div class="form-group">
+                <label class="form-control-label" for="loc" required>Address and location where bridal party will be getting ready at</label>
+                <input type="loc" class="form-control" id="loc">
+              </div>
+
+              <br>
+              <hr class="mb-2">
+                <fieldset class="form-group">
+                  <label for="role">Select services required for bride:</label>
+                  <select class="form-control" id="service" name="bride_service">
+                    <option value="blank">     </option>
+                    <option value="makeup and hair">Makeup and Hair</option>
+                    <option value="makeup only">Makeup only</option>
+                  </select>
+                </fieldset>
+
+                                  <div class="form-group">
+                    <label class="form-control-label" for="makeup" required>How many guests in your party will be needing makeup services?</label>
+                    <input type="makeup" class="form-control" id="makeup">
+                  </div>
+                  <div class="form-group">
+                    <label class="form-control-label" for="hair" required>How many guests in your party will be needing hair services?</label>
+                    <input type="hair" class="form-control" id="hair">
+                  </div>
+                  <div class="form-group">
+                    <label class="form-control-label" for="end_time" required>Time bride needs to be ready by </label>
+                    <input type="end_time" class="form-control" id="end_time">
+                  </div>
+                  <br>
+                  <hr class="mb-2">
+                  <button type="submit" class="btn btn-lg btn-primary submit">Submit</button>
+                </form>
+      <!-- /REGISTRATION -->
+
+
+      <div data-role="footer" data-position="fixed" class="footer">
+        <h5 class="verse" style="text-align: center">God is with her, she will not fail.</h5>
+        <h6 class="ref" style="text-align: center">- Psalm 46:5</h6>
+        <em><p style="text-align: center" class="copyright">	&copy;2017 Ronnel Jones Creative</p></em>
+      </div>
+
+    <script src="/js/components/vendor.js"></script>
+    <script src="/js/components/firstComp.js"></script>
+  </body>
+</html>
