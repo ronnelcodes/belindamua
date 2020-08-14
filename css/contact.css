@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
-@import url('https://www.cssfontstack.com/Muli');
+@import url("https://fonts.googleapis.com/css?family=Dancing+Script");
+@import url("https://www.cssfontstack.com/Muli");
 @import "reset";
 
 * {
@@ -7,8 +7,9 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  /*background: green;*/
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 .container {
@@ -48,12 +49,12 @@ body {
   color: #000;
 }
 #header .menu .current {
-  color: #FF1493;
+  color: #ff1493;
   font-weight: 700;
 }
 
 #header .menu a:hover {
-  background: url('http://www.powerpointhintergrund.com/uploads/2017/05/silver-glitter-background-frepk-16.jpeg');
+  background: url("http://www.powerpointhintergrund.com/uploads/2017/05/silver-glitter-background-frepk-16.jpeg");
   font-weight: 700;
 }
 
@@ -174,13 +175,13 @@ body {
   overflow: auto;
 }
 
-footer {
+/*footer {
   position: fixed;
   height: 100px;
   bottom: 0;
   width: 100%;
-  flex: 0 0 50px;/*or just height:50px;*/
-}
+  flex: 0 0 50px; /*or just height:50px;
+}*/
 
 footer .copyright {
   font-size: 13px;
@@ -197,10 +198,14 @@ footer .copyright {
 /* ==========================
     MEDIA QUERIES
   ========================== */
-  @media screen and (orientation: portrait) {
-    img.ri { max-width: 90%; }
+@media screen and (orientation: portrait) {
+  img.ri {
+    max-width: 90%;
   }
+}
 
-  @media screen and (orientation: landscape) {
-    img.ri { max-height: 90%; }
+@media screen and (orientation: landscape) {
+  img.ri {
+    max-height: 90%;
   }
+}
